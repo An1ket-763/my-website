@@ -1,0 +1,46 @@
+#why-swanand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.why-swanand-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.text-container {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.text-container h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #222222;
+    margin-top: 0px;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-container p {
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.image-logo {
+    width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

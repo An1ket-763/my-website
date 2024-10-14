@@ -1,0 +1,87 @@
+/* Contact.css */
+
+/* Set the background color for the entire contact section */
+#contact {
+    background-color: black;
+    /* Black background */
+    padding: 20px;
+    /* Optional: Add some padding */
+}
+
+/* Main container for contact content */
+.contact-content {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center align items vertically */
+}
+
+/* Style for the image container */
+.image-cont {
+    margin-right: 20px;
+    /* Margin to the right of the image */
+}
+
+/* Style for the image */
+.contact-image {
+    width: 100px;
+    /* Set the width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Text container holding both About Us and Contact Us sections */
+.txt-container {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+    /* Space out the sections */
+    flex: 1;
+    /* Allow the text container to take up available space */
+}
+
+/* Individual containers for About Us and Contact Us */
+.about-us-container,
+.contact-us-container {
+    text-align: center;
+    /* Center align headings and links */
+    flex: 1;
+    /* Allow both sections to grow equally */
+    margin: 0 10px;
+    /* Add margin between sections */
+}
+
+/* Style for h2 headings */
+.about-us,
+.contact-us {
+    color: white;
+    /* Change text color to white */
+    font-weight: bold;
+    /* Ensure text is bold */
+    font-size: 1.2em;
+    /* Reduced size */
+    margin-bottom: 5px;
+    /* Space between heading and links */
+}
+
+/* Style for links */
+.about-links a,
+.contact-links a {
+    display: block;
+    /* Stack links vertically */
+    margin: 5px 0;
+    /* Space between links */
+    color: grey;
+    /* Grey color */
+    font-weight: bold;
+    /* Bold text */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+/* Hover effect for links */
+.about-links a:hover,
+.contact-links a:hover {
+    color: #198754;
+    /* Change color on hover */
+}

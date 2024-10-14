@@ -1,0 +1,42 @@
+#home {
+    padding-top: 150px;
+    /* Adds space between the buttons and the content */
+    text-align: center;
+    /* Centers all content within the section */
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: #e6302c;
+    letter-spacing: 0.095em;
+}
+
+h1 {
+    font-size: 72px;
+    /* Large font size */
+    line-height: 1.13;
+    /* Adjusts space between lines */
+    margin: 0 auto 61px;
+    /* Centers the h1 element */
+    max-width: 80%;
+    /* Limits the width to prevent it from stretching too far */
+    display: inline-block;
+    /* Ensures the h1 takes up only the space needed for the text */
+    text-align: center;
+    /* Ensures the text is centered within the h1 */
+}
+
+img {
+    width: 100%;
+    /* Still spans full width */
+    max-height: 500px;
+    /* Limits the height for a smaller appearance */
+    object-fit: cover;
+    /* Ensures the image covers the space without stretching */
+    margin: 0;
+    /* Removes default margins */
+    padding: 0;
+    /* Removes default padding */
+}

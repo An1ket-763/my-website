@@ -1,0 +1,55 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    /* Adjust the width as needed */
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 1001;
+    /* Ensure it's above other content */
+    transition: transform 0.3s ease-in-out;
+}
+
+.close-button {
+    background-color: rgb(157, 157, 216);
+    border-radius: 50%;
+    border-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.sidebar h2,
+h4,
+h5 {
+    margin: 0 0 20px 0;
+    font-family: 'Oswald', sans-serif;
+    color: #222222;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#number {
+    font-family: 'Oswald', sans-serif;
+    color: #222222;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.sidebar p {
+    margin: 0;
+}
+
+hr {
+    border-bottom: 5px solid #777777;
+    border-top: 0 none;
+    margin: 20px 0;
+    padding: 0;
+}

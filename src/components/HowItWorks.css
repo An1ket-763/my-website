@@ -1,0 +1,129 @@
+#how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/public/images/greenbg.jpg");
+    background-size: cover;
+    /* Ensure the image covers the entire section */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    background-position: center;
+    /* Center the image */
+    padding: 40px;
+}
+
+
+.intro-paragraph {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    /* Set intro paragraph text color */
+    font-weight: bold;
+    /* Set intro paragraph text weight */
+    text-align: center;
+    /* Center the paragraph */
+    margin: 20px 0;
+    /* Add margin to space it out */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    /* Max width for better layout */
+}
+
+.left-side {
+    width: 60%;
+    /* 60% for buttons */
+}
+
+.right-side {
+    width: 40%;
+    /* 40% for image */
+    display: flex;
+    justify-content: flex-end;
+    /* Align image to the right */
+    padding: 25px 25px 25px 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    /* Ensure buttons are side by side */
+    margin-bottom: 20px;
+    /* Space between rows */
+}
+
+.button-group {
+    flex: 1;
+    /* Equal space for buttons */
+    margin: 0 10px;
+    /* Margin between buttons */
+}
+
+.work-button {
+    background-color: transparent;
+    /* No background */
+    color: rgb(233, 233, 233);
+    font-weight: bold;
+    /* Button text color */
+    border: none;
+    /* Remove border */
+    font-size: 1.5em;
+    /* Size for button */
+    width: 100%;
+    /* Full width */
+    height: 100px;
+    /* Fixed height for square buttons */
+    transition: background-color 0.3s;
+    /* Transition effect */
+}
+
+.step-paragraph {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    /* Set step paragraph text color */
+    margin-top: 10px;
+    /* Space between button and text */
+    font-weight: bold;
+    /* Set paragraph to bold */
+}
+
+.work-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Slight hover effect */
+}
+
+img {
+    width: 100%;
+    /* Full width of right side */
+    object-fit: cover;
+    /* Maintain aspect ratio */
+    border: none;
+    /* Remove border */
+
+}
+
+.howitworks-heading-button {
+    font-size: 2.5em;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: white;
+    /* White text for the HowItWorks heading button */
+    cursor: pointer;
+    text-align: center;
+    /* Center the text */
+    margin-top: 20px;
+    /* Add margin to the top */
+    padding: 10px 20px;
+    /* Add padding if you want */
+    transition: color 0.5s ease;
+    /* Transition effect for text color */
+}
+
+.howitworks-heading-button:hover {
+    color: yellow;
+    /* Change text color to yellow on hover */
+}

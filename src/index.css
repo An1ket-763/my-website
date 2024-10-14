@@ -1,0 +1,44 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  /* Light background color */
+  color: #333;
+  /* Dark text color */
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 20px 0;
+  /* Add padding to headings */
+}
+
+nav {
+  margin: 20px 0;
+  /* Space around the navigation */
+}
+
+nav a {
+  color: #007bff;
+  /* Bootstrap link color */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+
+nav a:hover {
+  text-decoration: underline;
+  /* Underline on hover */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,50 @@
+/* App.css */
+nav {
+    margin: 20px 0;
+    /* Space above and below the nav */
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Enable smooth scrolling */
+}
+
+body {
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+    background-color: white;
+    /* Set the background color to white */
+    font-family: Arial, sans-serif;
+    /* Optional: Set a default font family */
+}
+
+/* CSS for Spray Drying Capabilities Section */
+#sdc {
+    padding: 20px;
+    /* Padding for spacing */
+    text-align: center;
+    /* Center the text */
+    margin-top: 20px;
+    /* Space above this section */
+}
+
+#sdc h2 {
+    font-size: 48px;
+    margin-bottom: 0;
+    line-height: 1.1;
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#sdc p {
+    line-height: 1.6;
+    /* Line height for readability */
+    color: rgb(103, 102, 102);
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: justify;
+    font-weight: bold;
+}

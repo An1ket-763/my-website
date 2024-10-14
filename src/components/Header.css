@@ -1,0 +1,132 @@
+/* Header styling */
+header {
+    position: fixed;
+    /* Fix the header at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    /* White background */
+    z-index: 1000;
+    /* Ensure it’s above other content */
+    padding: 0 20px;
+    /* Add horizontal padding */
+    height: 80px;
+    /* Increased header height */
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center items vertically */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* Prevent overflow */
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    /* Use flexbox for button alignment */
+    justify-content: space-between;
+    /* Space out items */
+    width: 100%;
+    /* Ensure nav takes full width */
+}
+
+/* Logo container styling */
+.logo-container {
+    flex-shrink: 0;
+    /* Prevent logo from shrinking */
+}
+
+/* Logo image styling */
+.header-logo {
+    width: 80px;
+    /* Increased size of the logo */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Navigation buttons container */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    /* Center the buttons */
+    flex-grow: 1;
+    /* Allow the buttons to take available space */
+    max-width: calc(100% - 100px);
+    /* Allow space for the sidebar button */
+}
+
+/* Button styling */
+nav button {
+    margin: 0 15px;
+    /* Increased space between buttons */
+    padding: 12px 20px;
+    /* Increased button size */
+    border: none;
+    /* No borders */
+    background: none;
+    /* No background color */
+    color: #4a4a4a;
+    /* Dark grey text */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 18px;
+    /* Bigger button text size */
+    transition: color 0.3s;
+    /* Smooth color transition */
+}
+
+/* Button hover state */
+nav button:hover {
+    color: red;
+    /* Change text color to red on hover */
+}
+
+/* Button selected state */
+nav button.selected {
+    color: red;
+    /* Keep text color red when selected */
+}
+
+/* Adjust padding for the content sections to avoid overlap */
+.content {
+    padding-top: 90px;
+    /* Increased padding equal to or slightly greater than the header height */
+}
+
+/* Section styling */
+.content section {
+    padding: 20px;
+    /* Padding inside sections */
+    margin: 20px 0;
+    /* Space between sections */
+}
+
+/* Round button styling */
+.round-button {
+    width: 60px;
+    /* Adjust size as needed */
+    height: 60px;
+    /* Round button size */
+    border-radius: 50%;
+    /* Make it round */
+    background-image: url('/public/images/sblogo.png');
+    /* Background image */
+    background-size: cover;
+    /* Cover the entire button */
+    border: none;
+    /* No border */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    margin-left: 20px;
+    margin-top: 10px;
+    /* Space from the last button */
+    transition: transform 0.3s;
+    /* Smooth hover effect */
+}
+
+.round-button:hover {
+    transform: scale(1.1);
+    /* Slightly enlarge on hover */
+}
